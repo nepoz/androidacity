@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">About Me</string>
+    <string name="name">Bishrut</string>
+    <string name="yellow_star_desc">an image of a shining yellow star!</string>
+    <string name="long_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa eget egestas purus viverra accumsan in nisl nisi. Dui accumsan sit amet nulla facilisi morbi. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Nisi porta lorem mollis aliquam ut porttitor. Ornare aenean euismod elementum nisi quis eleifend quam. Viverra aliquet eget sit amet tellus. Nibh praesent tristique magna sit amet purus. Lacus vel facilisis volutpat est velit egestas dui id. Interdum consectetur libero id faucibus nisl tincidunt eget. Est ultricies integer quis auctor. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit.
+
+Nibh cras pulvinar mattis nunc sed. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Fermentum leo vel orci porta. Consequat nisl vel pretium lectus quam id. Quam viverra orci sagittis eu volutpat odio facilisis mauris. In vitae turpis massa sed elementum tempus egestas. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Non odio euismod lacinia at quis risus sed vulputate odio. Lacus sed turpis tincidunt id aliquet risus. Viverra vitae congue eu consequat ac felis donec et. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Mauris in aliquam sem fringilla ut morbi. Massa sapien faucibus et molestie.
+    </string>
+    <string name="person_ic_desc">Person icon</string>
+    <string name="nickname_hint">What is your nickname?</string>
+    <string name="done">Done</string>
 </resources>
