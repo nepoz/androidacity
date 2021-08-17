@@ -3,13 +3,16 @@ package com.example.colormyviews
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setListeners()
+        setBoxListeners()
+        setButtonListeners()
     }
 
     private fun makeColored(view: View) {
@@ -28,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun setListeners() {
+    private fun setBoxListeners() {
         val boxes = listOf<View>(
             findViewById(R.id.box_one_text),
             findViewById(R.id.box_two_text),
@@ -42,5 +45,26 @@ class MainActivity : AppCompatActivity() {
             it.setOnClickListener { view -> makeColored(view) }
         }
     }
+
+    private fun setButtonListeners() {
+        val buttons = listOf<View>(
+            findViewById(R.id.red_button),
+            findViewById(R.id.yellow_button),
+            findViewById(R.id.green_button)
+        )
+
+        buttons.forEach {
+            it.setOnClickListener {view -> changeTextColor(view)}
+        }
+    }
+
+    private fun changeTextColor(v: View) {
+        when (v.id) {
+            R.id.red_button -> findViewById<TextView>(R.id.box_three_text).setBackgroundColor(Color.RED)
+            R.id.yellow_button ->findViewById<TextView>(R.id.box_four_text).setBackgroundColor(Color.YELLOW)
+            R.id.green_button -> findViewById<TextView>(R.id.box_five_text).setBackgroundColor(Color.GREEN)
+        }
+    }
+
 
 }
